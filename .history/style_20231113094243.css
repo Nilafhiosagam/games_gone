@@ -1,0 +1,28 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Content Styles */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+}
